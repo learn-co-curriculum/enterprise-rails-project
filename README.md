@@ -18,7 +18,9 @@ Project reviews are focused on preparing you for [technical interviews](https://
 During your project review, be prepared to:
 
 1. Explain your code from execution point to exit point. Use the best technical vocabulary you can. (15 minutes)
+
 2. Live code. This could be refactoring, adding a new feature, or both. (20 minutes)
+
 3. You will also be asked questions that test your knowledge of Rails fundamentals. (10 minutes)
 
 If any requirements are missing or if significant gaps in understanding are found, be prepared to do one or all of the following:
@@ -42,7 +44,7 @@ What won't happen:
 
 3. Your models must include reasonable validations for the simple attributes. You don't need to add every possible validation or duplicates, such as presence and a minimum length, but the models should defend against invalid data.
 
-4. You must include at least one class level ActiveRecord [scope method](https://guides.rubyonrails.org/active_record_querying.html#scopes).
+4. You must include at least one class level Active Record [scope method](https://guides.rubyonrails.org/active_record_querying.html#scopes).
   - Your scope method must be chainable, meaning that you must use [ActiveRecord Query methods](https://guides.rubyonrails.org/active_record_querying.html) within it (such as `.where` and `.order`) rather than native ruby methods (such as `#find_all` or `#sort`).
 
 5. Your application must provide standard user authentication, including signup, login, logout, and passwords.
@@ -57,7 +59,7 @@ What won't happen:
   - Your fields should be enclosed within a fields_with_errors class
   - Error messages describing the validation failures must be present within the view.
 
-9. Your application must be, within reason, a DRY (Do-Not-Repeat-Yourself) rails app. 
+9. Your application must be, within reason, a DRY (Do-Not-Repeat-Yourself) Rails app. 
   - Logic present in your controllers should be encapsulated as methods in your models.  
   - Your views should use helper methods and partials when appropriate. 
   - Follow patterns in the [Rails Style Guide](https://github.com/bbatsov/rails-style-guide) and the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide).
@@ -80,13 +82,21 @@ What won't happen:
 ## <a id="instructions">Instructions</a>
 
 1. Create a new repository on GitHub for your Rails application.
+
 2. When you create the Rails app for your assessment, add the spec.md file from this repo to the root directory of the project, commit it to Git and push it up to GitHub. You will use this file as a personal checklist of requirements as you complete the project.
+
 3. Build your application. Make sure to commit early and commit often. Commit messages should be meaningful (clearly describe what you're doing in the commit) and accurate (there should be nothing in the commit that doesn't match the description in the commit message). Good rule of thumb is to commit every 3-7 mins of actual coding time. Most of your commits should have under 15 lines of code and a 2 line commit is perfectly acceptable. **This is important and you'll be graded on this**.
+
 4. Record at least a 30 min coding session. During the session, either think out loud or not. It's up to you. You don't need to submit it, but we may ask for it at a later time.
+
 5. Make sure to check each box in your spec.md (replace the space between the square braces with an x) and explain next to each one how you've met the requirement *before* you submit your project.
+
 6. Write a README.md.
+
 7. Submit a video of how a user would interact with your working web application.
+
 8. Write a blog post about the project and process.
+
 9. When done, submit your GitHub repo's url, a link to your video demo, and a link to your blog post in the corresponding text boxes in the right rail. Hit "I'm done" to wrap it up.
 
 ## <a id="success">Practicing for Success</a>
